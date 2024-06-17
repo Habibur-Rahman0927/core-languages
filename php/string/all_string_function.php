@@ -394,7 +394,7 @@
 // $str = "Hello, world! php";
 // $substring = "world";
 // $result = strchr($str, $substring);
-// echo $result; // Output: world!
+// echo $result; // Output: world! php
 
 // $str1 = "Hello";
 // $str2 = "hello";
@@ -410,3 +410,147 @@
 // $mask = "aeiou";
 // $length = strcspn($str, $mask);
 // echo $length; // Output: 2 (length until the first vowel is encountered)
+
+// $html = "<p>Hello, <b>world!</b></p>";
+// $stripped = strip_tags($html, '<b>');
+// echo $stripped; // Output: Hello, <b>world!</b>
+
+// $str = "Hello\'s world!";
+// $unquoted = stripcslashes($str);
+// echo $unquoted; // Output: Hello's world!
+
+// $str = "Hello, world!";
+// $substring = "WORLD";
+// $pos = stripos($str, $substring);
+// echo $pos; // Output: 7
+
+// $str = "Path\\to\\file\\is\\C:\\\\temp\\\\file.txt";
+// $unquoted = stripslashes($str);
+// echo $unquoted; // Output: Path\to\file\is\C:\temp\file.txt
+
+// $str = "Hello, world!";
+// $substring = "WORLD";
+// $result = stristr($str, $substring);
+// echo $result; // Output: world!
+
+// $str = "Hello, world!";
+// $length = strlen($str);
+// echo $length; // Output: 13
+
+// $str1 = "file2.txt";
+// $str2 = "File10.txt";
+// $result = strnatcasecmp($str1, $str2);
+// echo $result; // Output: 0 (indicating strings are equal in natural order comparison)
+
+// $str1 = "file2.txt";
+// $str2 = "File10.txt";
+// $result = strnatcmp($str1, $str2);
+// echo $result; // Output: 1 (indicating str1 is less than str2 in natural order comparison)
+
+// $str1 = "Hello";
+// $str2 = "HELLO, world!";
+// $result = strncasecmp($str1, $str2, 5);
+// echo $result; // Output: 0 (indicating the first 5 characters are equal)
+
+// $str1 = "Hello";
+// $str2 = "Hello, world!";
+// $result = strncmp($str1, $str2, 5);
+// echo $result; // Output: 0 (indicating the first 5 characters are equal)
+
+// $str = "Hello, world!";
+// $char_list = "aeiou";
+// $result = strpbrk($str, $char_list);
+// echo $result; // Output: ello, world! (returns the first occurrence of any vowel)
+
+// $str = "Hello, world!";
+// $substring = "world";
+// $pos = strpos($str, $substring);
+// echo $pos; // Output: 7
+
+// $str = "Hello, world!";
+// $char = "o";
+// $result = strrchr($str, $char);
+// echo $result; // Output: orld!
+
+// $str = "Hello, world!";
+// $reversed = strrev($str);
+// echo $reversed; // Output: !dlrow ,olleH
+
+// $str = "Hello, world! Hello!";
+// $substring = "hello";
+// $pos = strripos($str, $substring);
+// echo $pos; // Output: 14
+
+// $str = "Hello, world! Hello!";
+// $substring = "Hello";
+// $pos = strrpos($str, $substring);
+// echo $pos; // Output: 14
+
+// $str = "Hello, world!";
+// $mask = "Helo";
+// $length = strspn($str, $mask);
+// echo $length; // Output: 5 (length until the first character not in the mask is encountered)
+
+// $str = "Hello, world! php";
+// $substring = "world";
+// $result = strstr($str, $substring);
+// echo $result; // Output: world!
+
+// $str = "Hello, world!";
+// $token = strtok($str, ",");
+// echo $token;
+// while ($token !== false) {
+//     echo "$token\n"; // Output: Hello (newline) world! (newline)
+//     $token = strtok(",");
+//     echo $token;
+// }
+
+// $str = "Hello, WORLD!";
+// $lowercase = strtolower($str);
+// echo $lowercase; // Output: hello, world!
+
+// $str = "Hello, world!";
+// $uppercase = strtoupper($str);
+// echo $uppercase; // Output: HELLO, WORLD!
+
+// $str = "Hello, world!";
+// $trans = strtr($str, "l", "L");
+// echo $trans; // Output: HeLLo, worLd!
+
+// $str = "Hello, world!";
+// $compare = substr_compare($str, "world", 7, 5);
+// echo $compare; // Output: 0 (indicating the substrings are equal)
+
+// $str = "Hello, world! Hello!";
+// $count = substr_count($str, "Hello");
+// echo $count; // Output: 2
+
+// $str = "Hello, world!";
+// $replaced = substr_replace($str, "PHP", 7, 5);
+// echo $replaced; // Output: Hello, PHP!
+
+// $str = "Hello, world!";
+// $substring = substr($str, 7, 12);
+// echo $substring; // Output: world!
+
+// $str = "   Hello    , world!   ";
+// $trimmed = trim($str);
+// echo $trimmed; // Output: Hello, world!
+
+// $str = "hello, world!";
+// $ucfirst = ucfirst($str);
+// echo $ucfirst; // Output: Hello, world!
+
+// $str = "hello, world!";
+// $ucwords = ucwords($str);
+// echo $ucwords; // Output: Hello, World!
+
+// $handle = fopen("output.txt", "w");
+// $vfprintf_result = vfprintf($handle, "%s %s", array("Hello,", "world!"));
+// fclose($handle);
+
+// $str = "Hello, world! How are you?";
+// $wrapped = wordwrap($str, 10, "\n");
+// echo $wrapped;
+
+// done all string function in php
