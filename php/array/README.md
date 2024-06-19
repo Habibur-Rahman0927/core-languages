@@ -246,5 +246,5 @@ This repository contains examples of various PHP array functions with explanatio
 
 
 ## Resources
-- **Here Is the description of array function check the like below:**
+- **Here Is the explanation of array function check the like below:**
 https://docs.google.com/document/d/1vz1bmvAQD8ixrIwnBUb5Zw8N65mefKy771vJYxSol4k/edit?usp=sharing
