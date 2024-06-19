@@ -221,3 +221,235 @@
 // $array = ['a' => 'apple', 'b' => 'banana', 'c' => 'cherry'];
 // $key = array_search('banana', $array);
 // echo $key; // Output: b
+
+// $array = [1, 2, 3];
+// $first = array_shift($array);
+// echo $first; // Output: 1
+
+// $array = [1, 2, 3, 4, 5];
+// $result = array_slice($array, 2, 2);
+// print_r($result); 
+// Output: Array ( [0] => 3 [1] => 4 )
+
+// $array = [2, 3, 4];
+// $result = array_sum($array);
+// echo $result; // Output: 9 (2 + 3 + 4)
+
+// $array1 = ['a' => 'apple', 'b' => 'banana'];
+// $array2 = ['a' => 'apple', 'b' => 'blueberry'];
+// $result = array_udiff_assoc($array1, $array2, 'strcasecmp');
+// print_r($result); 
+// Output: Array ( [b] => banana )
+// $array1 = ['name' => 'John', 'age' => '25'];
+// $array2 = ['name' => 'john', 'age' => '30'];
+// $result = array_udiff_assoc($array1, $array2, 'strcasecmp');
+// print_r($result);
+
+// $array1 = ['a' => 'apple', 'b' => 'banana'];
+// $array2 = ['A' => 'Apple', 'B' => 'blueberry'];
+// $result = array_udiff_uassoc($array1, $array2, 'strcasecmp', 'strcasecmp');
+// print_r($result); 
+// // Output: Array ( [b] => banana )
+
+// $array1 = ['apple', 'banana', 'Cherry'];
+// $array2 = ['banana', 'cherry'];
+// $result = array_udiff($array1, $array2, 'strcasecmp');
+// print_r($result); 
+// // Output: Array ( [0] => apple )
+
+// $array1 = ['a' => 'apple', 'b' => 'banana'];
+// $array2 = ['a' => 'Apple', 'c' => 'carrot'];
+// $result = array_uintersect_assoc($array1, $array2, 'strcasecmp');
+// print_r($result); 
+// // Output: Array ( [a] => apple )
+
+// $array1 = ['a' => 'apple', 'b' => 'banana'];
+// $array2 = ['A' => 'Apple', 'B' => 'blueberry'];
+// $result = array_uintersect_uassoc($array1, $array2, 'strcasecmp', 'strcasecmp');
+// print_r($result); 
+// Output: Array ( [a] => apple )
+
+// $array1 = ['apple', 'banana', 'Cherry'];
+// $array2 = ['banana', 'cherry'];
+// $result = array_uintersect($array1, $array2, 'strcasecmp');
+// print_r($result); 
+// Output: Array ( [1] => banana [2] => Cherry )
+
+// $array = [1, 2, 2, 3, 4, 4, 5];
+// $result = array_unique($array);
+// print_r($result); 
+// // Output: Array ( [0] => 1 [1] => 2 [3] => 3 [4] => 4 [6] => 5 )
+
+// $array = [1, 2, 3];
+// array_unshift($array, 0);
+// print_r($array); 
+// // Output: Array ( [0] => 0 [1] => 1 [2] => 2 [3] => 3 )
+
+// $array = ['a' => 'apple', 'b' => 'banana', 'c' => 'cherry'];
+// $values = array_values($array);
+// print_r($values); 
+// // Output: Array ( [0] => apple [1] => banana [2] => cherry )
+
+// $array = ['a' => ['apple' => ['test'], 'avocado'], 'b' => 'banana'];
+// array_walk_recursive($array, function(&$value, $key) {
+//     if (is_string($value)) {
+//         $value = strtoupper($value);
+//     }
+// });
+// print_r($array); 
+// Output: Array ( [a] => Array ( [0] => APPLE [1] => AVOCADO ) [b] => BANANA )
+
+// $array = ['a' => 'apple', 'b' => 'banana'];
+// array_walk($array, function(&$value, $key) {
+//     $value = strtoupper($value);
+// });
+// print_r($array); 
+// Output: Array ( [a] => APPLE [b] => BANANA )
+
+// $array = array('apple', 'banana', 'cherry');
+// print_r($array);
+// // Output: Array ( [0] => apple [1] => banana [2] => cherry )
+
+// $array = array('c' => 1, 'a' => 3, 'b' => 2);
+// arsort($array);
+// print_r($array);
+// // Output: Array ( [c] => 3 [b] => 2 [a] => 1 )
+
+// $array = array('c' => 1, 'a' => 3, 'b' => 2);
+// asort($array);
+// print_r($array);
+// // Output: Array ( [c] => 1 [b] => 2 [a] => 3 )
+
+// $fruit = 'apple';
+// $number = 5;
+// $result = compact('fruit', 'number');
+// print_r($result);
+
+// $array = array('apple', 'banana', 'cherry');
+// $count = count($array);
+// echo $count; // Output: 3
+
+// $array = array('apple', 'banana', 'cherry');
+// $current = current($array);
+// echo $current; // Output: apple
+
+// $array = array('apple', 'banana', 'cherry');
+// $last = end($array);
+// echo $last; // Output: cherry
+
+// $array = array('fruit' => 'apple', 'number' => 5);
+// extract($array);
+// echo $fruit; // Output: apple
+// echo $number; // Output: 5
+
+// $array = array('apple', 'banana', 'cherry');
+// $exists = in_array('banana', $array);
+// echo $exists ? 'Yes' : 'No'; // Output: Yes
+
+// $array = array('a' => 'apple', 'b' => 'banana');
+// $exists = key_exists('b', $array);
+// echo $exists ? 'Yes ' . $array['b'] : 'No'; // Output: Yes
+
+// $array = array('a' => 'apple', 'b' => 'banana');
+// $key = key($array);
+// echo $key; // Output: a
+
+// $array = array('c' => 1, 'a' => 3, 'b' => 2);
+// krsort($array);
+// print_r($array);
+// // Output: Array ( [c] => 1 [b] => 2 [a] => 3 )
+
+// $array = array('c' => 1, 'a' => 3, 'b' => 2);
+// ksort($array);
+// print_r($array);
+// // Output: Array ( [a] => 3 [b] => 2 [c] => 1 )
+
+// $array = array('apple', 'banana', 'cherry');
+// list($fruit1, $fruit2, $fruit3) = $array;
+// echo $fruit2."\n"; // Output: banana
+// echo $fruit3; // Output: cherry
+
+// $array = array('Apple', 'banana', 'Cherry');
+// natcasesort($array);
+// print_r($array);
+// Output: Array ( [0] => Apple [2] => Cherry [1] => banana )
+
+// $array = array('10', '1', '9', '2');
+// natsort($array);
+// print_r($array);
+// // Output: Array ( [1] => 1 [3] => 2 [2] => 9 [0] => 10 )
+
+// $array = array('apple', 'banana', 'cherry');
+// echo current($array) . "\n";
+// echo key($array) . "\n";
+// echo next($array) . "\n";
+// echo end($array) . "\n";
+
+// $array = array('apple', 'banana', 'cherry');
+// $pos = pos($array); // The pos function is an alias of current
+// echo $pos; // Output: apple
+
+// $array = array('apple', 'banana', 'cherry');
+// $next = next($array);
+// echo $next . "\n"; // output: banana
+// reset($array);
+// $next = next($array);
+// echo $next . "\n"; // output: banana
+// $prev = prev($array);
+// echo $prev; // Output: apple
+
+// $array = range(1, 5);
+// print_r($array);
+// // Output: Array ( [0] => 1 [1] => 2 [2] => 3 [3] => 4 [4] => 5 )
+
+// $array = array('apple', 'banana', 'cherry');
+// $first = reset($array);
+// echo $first; // Output: apple
+
+// $array = array('apple', 'banana', 'cherry');
+// rsort($array);
+// print_r($array);
+// // Output: Array ( [0] => cherry [1] => banana [2] => apple )
+
+// $array = array('apple', 'banana', 'cherry');
+// shuffle($array);
+// print_r($array);
+// // Output: Array ( [0] => banana [1] => apple [2] => cherry )
+
+// $array = array('apple', 'banana', 'cherry');
+// $size = sizeof($array);
+// echo $size; // Output: 3
+
+// $array = array('cherry', 'banana', 'apple');
+// sort($array);
+// print_r($array);
+// // Output: Array ( [0] => apple [1] => banana [2] => cherry )
+
+// $array = array('c' => 3, 'a' => 1, 'b' => 2);
+// uasort($array, function($a, $b) {
+//     echo $a ."=".$b."\n";
+//     return ($a < $b) ? -1 : 1;
+// });
+// print_r($array);
+// // Output: Array ( [a] => 1 [b] => 2 [c] => 3 )
+
+// $array = array('c' => 3, 'a' => 1, 'b' => 2);
+// uksort($array, function($a, $b) {
+//     return ($a < $b) ? -1 : 1;
+// });
+// print_r($array);
+// // Output: Array ( [a] => 1 [b] => 2 [c] => 3 )
+
+// $array = array('c', 'a', 'b');
+// usort($array, function($a, $b) {
+//     echo $a ."=".$b."\n";
+//     return ($a < $b) ? -1 : 1;
+// });
+// print_r($array);
+// // Output: Array ( [1] => a [2] => b [0] => c )
+
+// Deprecated
+// $array = array('a' => 'apple', 'b' => 'banana');
+// while (list($key, $value) = each($array)) { // Deprecated
+//     echo "$key: $value\n";
+// }
