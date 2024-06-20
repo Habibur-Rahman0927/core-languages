@@ -173,6 +173,6 @@ Welcome to the repository showcasing examples of various  Python sets, complete 
 - Sets in Python are mutable and unordered collections of unique elements, which makes these methods highly useful for data manipulation tasks.
 
 ## Additional Resources
-- **Here Is the explanation of string methods check the like below:**
-https://docs.google.com/document/d/1wGfHLVg2e6TvZXSIs-7OVUOfNv0Dbtigtg25qpUALNo/edit?usp=sharing
+- **Here Is the explanation of set methods check the like below:**
+[set method](https://docs.google.com/document/d/1wGfHLVg2e6TvZXSIs-7OVUOfNv0Dbtigtg25qpUALNo/edit?usp=sharing)
 - For more detailed information, refer to the [official Python documentation on sets](https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset).

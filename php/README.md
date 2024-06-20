@@ -166,7 +166,7 @@
 
 ## Resources
 - **Here Is the explanation of array and string function check the like below:**
-https://docs.google.com/document/d/1vz1bmvAQD8ixrIwnBUb5Zw8N65mefKy771vJYxSol4k/edit?usp=sharing
+[array and string function](https://docs.google.com/document/d/1vz1bmvAQD8ixrIwnBUb5Zw8N65mefKy771vJYxSol4k/edit?usp=sharing)
 - **Online Courses**: Platforms like [Codecademy](https://www.codecademy.com/learn/learn-php), [Udemy](https://www.udemy.com/topic/php/), and [Coursera](https://www.coursera.org/courses?query=php) offer PHP courses.
 - **Community and Forums**: Engage with communities such as [Stack Overflow](https://stackoverflow.com/questions/tagged/php) and the [PHP subreddit](https://www.reddit.com/r/php/) for support and learning.
 - **Documentation**: Regularly refer to the [PHP Manual](https://www.php.net/manual/en/) for up-to-date documentation.

@@ -371,5 +371,5 @@ Welcome to the repository showcasing examples of various Python string Methods w
 
 Each function example demonstrates its usage with Python code snippets and expected output. Feel free to explore and modify these examples to suit your needs.
 ## Resources
-- **Here Is the explanation of string method check the like below:**
-https://docs.google.com/document/d/1wGfHLVg2e6TvZXSIs-7OVUOfNv0Dbtigtg25qpUALNo/edit?usp=sharing
+- **Here Is the explanation of string method check the like below:** [string method](https://docs.google.com/document/d/1wGfHLVg2e6TvZXSIs-7OVUOfNv0Dbtigtg25qpUALNo/edit?usp=sharing)
+

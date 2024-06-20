@@ -1029,4 +1029,4 @@ Welcome to the repository showcasing examples of various PHP string functions al
 
 ## Resources
 - **Here Is the explanation of string function check the like below:**
-https://docs.google.com/document/d/1vz1bmvAQD8ixrIwnBUb5Zw8N65mefKy771vJYxSol4k/edit?usp=sharing
+[string function](https://docs.google.com/document/d/1vz1bmvAQD8ixrIwnBUb5Zw8N65mefKy771vJYxSol4k/edit?usp=sharing)
