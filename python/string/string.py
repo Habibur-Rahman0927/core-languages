@@ -94,3 +94,45 @@
 # text = "TestHook"
 # print(text.removeprefix("Test"))  # Output: "Hook"
 
+# text = "hello world"
+# print(text.replace("world", "Python"))  # Output: "hello Python"
+
+# text = "hello world world"
+# print(text.rfind("world"))  # Output: 12
+
+# text = "hello world world"
+# print(text.rindex("world"))  # Output: 12
+
+# text = "hello"
+# print(text.rjust(10, '-'))  # Output: "-----hello"
+
+# text = "hello world"
+# print(text.rpartition(" "))  # Output: ('hello', ' ', 'world')
+
+# text = "hello world"
+# print(text.rsplit())  # Output: ['hello', 'world']
+
+# text = "   hello   "
+# print(text.rstrip())  # Output: "   hello"
+
+# text = "hello world"
+# print(text.split())  # Output: ['hello', 'world']
+
+# text = "hello\nworld"
+# print(text.splitlines())  # Output: ['hello', 'world']
+
+# text = "hello world"
+# print(text.startswith("hello"))  # Output: True
+
+# text = "   hello   "
+# print(text.strip())  # Output: "hello"
+
+# text = "hello world"
+# print(text.title())  # Output: "Hello World"
+
+# text = "hello world"
+# result = text.upper()
+# print(result)  # Output: "HELLO WORLD"
+
+# text = "42"
+# print(text.zfill(5))  # Output: "00042"
