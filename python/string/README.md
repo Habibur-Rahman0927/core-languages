@@ -1,8 +1,8 @@
-# Python String Functions Examples
+# Python String Methods Examples
 
-Welcome to the repository showcasing examples of various Python string functions with explanations and outputs.
+Welcome to the repository showcasing examples of various Python string Methods with explanations and outputs.
 
-## Functions Covered
+## Methods Covered
 
 1. **`capitalize()`**
    - Converts the first character of the string to uppercase and the rest to lowercase.
@@ -371,5 +371,5 @@ Welcome to the repository showcasing examples of various Python string functions
 
 Each function example demonstrates its usage with Python code snippets and expected output. Feel free to explore and modify these examples to suit your needs.
 ## Resources
-- **Here Is the explanation of string function check the like below:**
+- **Here Is the explanation of string method check the like below:**
 https://docs.google.com/document/d/1wGfHLVg2e6TvZXSIs-7OVUOfNv0Dbtigtg25qpUALNo/edit?usp=sharing

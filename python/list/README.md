@@ -1,8 +1,8 @@
 # Python List Methods
 
-Welcome to the repository showcasing examples of various Python List functions with explanations and outputs.
+Welcome to the repository showcasing examples of various Python List Methods with explanations and outputs.
 
-## Functions Covered
+## Methods Covered
 
 1. **`append`**
     - Appends an element to the end of the list.
@@ -108,6 +108,6 @@ Welcome to the repository showcasing examples of various Python List functions w
 - These methods provide essential functionalities for adding, removing, modifying, and manipulating lists in Python.
 
 ## Additional Resources
-- **Here Is the explanation of string function check the like below:**
+- **Here Is the explanation of string methods check the like below:**
 https://docs.google.com/document/d/1wGfHLVg2e6TvZXSIs-7OVUOfNv0Dbtigtg25qpUALNo/edit?usp=sharing
 - For more detailed information, refer to the [official Python documentation on lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists).
